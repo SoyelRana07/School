@@ -1,5 +1,5 @@
 import './App.css';
-import { Link,HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Link,HashRouter , Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 
 import Nav from 'react-bootstrap/Nav';
