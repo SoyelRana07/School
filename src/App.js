@@ -1,6 +1,7 @@
 import './App.css';
-import { Link, Routes, Route } from 'react-router-dom';
+import { Link,HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
+import { HashRouter } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home/Home';
@@ -11,6 +12,7 @@ import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
+    <HashRouter>
     <div>
       <Navbar expand="lg" className='position-absolute w-100'>
         <Container>
@@ -136,6 +138,7 @@ function App() {
         </div>
       </footer>
     </div>
+    </HashRouter>
   );
 }
 
