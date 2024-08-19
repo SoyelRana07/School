@@ -1,0 +1,42 @@
+.courses-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/courses-page-header.jpg);
+}
+
+.courses-page .card-img-overlay {
+    background-color: rgba(5, 10, 35, 0.7);
+}
+
+.courses-page .card:hover {
+    cursor: pointer;
+}
+/* Courses.css */
+
+.course-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.course-image {
+    transition: transform 0.3s ease;
+}
+
+.course-card:hover .course-image {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    padding: 1rem;
+}
+
+.course-card:hover .overlay {
+    opacity: 1;
+}
