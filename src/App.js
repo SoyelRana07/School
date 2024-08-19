@@ -12,7 +12,7 @@ import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
-    <HashRouter>
+
     <div>
       <Navbar expand="lg" className='position-absolute w-100'>
         <Container>
@@ -138,7 +138,7 @@ function App() {
         </div>
       </footer>
     </div>
-    </HashRouter>
+    
   );
 }
 
