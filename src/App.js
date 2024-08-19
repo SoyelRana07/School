@@ -1,7 +1,7 @@
 import './App.css';
 import { Link,HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-import { HashRouter } from 'react-router-dom';
+
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home/Home';
@@ -37,11 +37,11 @@ function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' className='bg-light' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
-              <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
-              <Nav.Link href='/courses' className='text-uppercase'>Our courses</Nav.Link>
-              <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
-              <Nav.Link href='/blog' className='text-uppercase'>Beyond Academics</Nav.Link>
-              <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
+            <Nav.Link as={Link} to='/' className='text-uppercase'>Home</Nav.Link>
+<Nav.Link as={Link} to='/courses' className='text-uppercase'>Our courses</Nav.Link>
+<Nav.Link as={Link} to='/about' className='text-uppercase'>About us</Nav.Link>
+<Nav.Link as={Link} to='/blog' className='text-uppercase'>Beyond Academics</Nav.Link>
+<Nav.Link as={Link} to='/contact' className='text-uppercase'>Get in touch</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
