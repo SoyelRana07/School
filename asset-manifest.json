@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/School/static/css/main.fc7495cc.css",
-    "main.js": "/School/static/js/main.46e28d51.js",
+    "main.js": "/School/static/js/main.989a6a14.js",
     "static/js/453.4e478645.chunk.js": "/School/static/js/453.4e478645.chunk.js",
     "static/media/about-page-header2.jpg": "/School/static/media/about-page-header2.4c0ab62418587b40818d.jpg",
     "static/media/start-courses-img.jpg": "/School/static/media/start-courses-img.041cfa407ce8af95dc37.jpg",
@@ -43,11 +43,11 @@
     "static/media/London-location.jpg": "/School/static/media/London-location.a09138fe7374f4a6a630.jpg",
     "index.html": "/School/index.html",
     "main.fc7495cc.css.map": "/School/static/css/main.fc7495cc.css.map",
-    "main.46e28d51.js.map": "/School/static/js/main.46e28d51.js.map",
+    "main.989a6a14.js.map": "/School/static/js/main.989a6a14.js.map",
     "453.4e478645.chunk.js.map": "/School/static/js/453.4e478645.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc7495cc.css",
-    "static/js/main.46e28d51.js"
+    "static/js/main.989a6a14.js"
   ]
 }
